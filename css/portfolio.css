@@ -128,6 +128,22 @@ header {
   margin-left: auto;
 }
 
+.link-header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.link-header-svg {
+  fill: var(--main-text-color);
+  margin-right: 10px;
+}
+
+.link-header:hover .link-header-svg,
+.link-header:focus .link-header-svg {
+  fill: var(--accent-color);
+}
+
 .list-btn-filtr {
   display: flex;
   justify-content: center;

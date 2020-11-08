@@ -120,6 +120,23 @@ body {
   margin-left: auto;
 }
 
+.link-header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.link-header-svg {
+  fill: var(--main-text-color);
+  margin-right: 10px;
+  /* vertical-align: middle; */
+}
+
+.link-header:hover .link-header-svg,
+.link-header:focus .link-header-svg {
+  fill: var(--accent-color);
+}
+
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -381,14 +398,6 @@ body {
   margin-bottom: 0px;
 }
 
-.clients-icons-item {
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
 .clients-icons-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -436,6 +445,31 @@ body {
 
 .list-contacts .item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.title-plus-foot {
+  color: var(--white);
+}
+
+.social-icons-link-foot {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icons-foot-svg {
+  fill: var(--white);
+}
+
+.footer-social-link {
+  display: flex;
+  flex-wrap: wrap;
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer {
