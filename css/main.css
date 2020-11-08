@@ -96,6 +96,10 @@ body {
   padding-bottom: 32px;
 }
 
+.link-nav.current {
+  color: var(--accent-color);
+}
+
 .link-nav-menu {
   display: flex;
   padding-left: 0px;
@@ -448,6 +452,7 @@ body {
 }
 
 .title-plus-foot {
+  margin-bottom: 20px;
   color: var(--white);
 }
 
