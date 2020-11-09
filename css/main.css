@@ -375,7 +375,7 @@ body {
 .social-icons-svg {
   width: 20px;
   height: 20px;
-  fill: var(--main-text-color);
+  fill: #afb1b8;
 }
 
 .social-icons-link:hover .social-icons-svg,
@@ -418,7 +418,7 @@ body {
 }
 
 .clients-icons-svg {
-  fill: var(--main-text-color);
+  fill: #afb1b8;
 }
 
 .clients-icons-link:hover,
